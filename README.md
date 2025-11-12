@@ -9,11 +9,18 @@ The goal of `nightingale` is to serve as a practical example to help you learn a
 
 ## Installation
 
-You can install the development version of nightingale from [GitHub](https://github.com/) with:
+You can install the development version of nightingale from [GitHub](https://github.com/jansim/nightingale) with:
 
 ``` r
 # install.packages("pak")
 pak::pak("jansim/nightingale")
+```
+
+Alternatively, using devtools:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("jansim/nightingale")
 ```
 
 ## Example
@@ -47,3 +54,16 @@ This will start the shiny app and make it available at [https://localhost:3838/]
 ## Acknowledgement
 
 The package uses data and draws inspiration from https://www.datawrapper.de/blog/recreating-nightingale-rose-chart.
+
+## License
+
+This package is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+The MIT License is a permissive open-source license that allows you to:
+- Use the software for any purpose
+- Copy, modify, and distribute the software
+- Include the software in proprietary applications
+
+The only requirements are:
+- Include a copy of the license and copyright notice with the software
+- Provide attribution to the original authors
